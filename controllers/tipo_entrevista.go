@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/planesticud/calificacion_admision_crud/models"
-
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
+	"github.com/planesticud/calificacion_admision_crud/models"
 )
 
 // TipoEntrevistaController operations for TipoEntrevista
+//despues otro cafe
 type TipoEntrevistaController struct {
 	beego.Controller
 }
