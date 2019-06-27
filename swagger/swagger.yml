@@ -1069,9 +1069,6 @@ tags:
 - name: estado_entrevista
   description: |
     EstadoEntrevistaController operations for EstadoEntrevista
-- name: tipo_entrevista
-  description: |
-    TipoEntrevistaController operations for TipoEntrevista
 - name: criterio
   description: |
     CriterioController operations for Criterio

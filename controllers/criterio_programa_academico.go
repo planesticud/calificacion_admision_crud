@@ -6,10 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/planesticud/calificacion_admision_crud/models"
-
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
+	"github.com/planesticud/calificacion_admision_crud/models"
 )
 
 // CriterioProgramaAcademicoController operations for CriterioProgramaAcademico
@@ -33,6 +32,7 @@ func (c *CriterioProgramaAcademicoController) URLMapping() {
 // @Success 201 {int} models.CriterioProgramaAcademico
 // @Failure 400 the request contains incorrect syntax
 // @router / [post]
+// oh jesus
 func (c *CriterioProgramaAcademicoController) Post() {
 	var v models.CriterioProgramaAcademico
 	if err := json.Unmarshal(c.Ctx.Input.RequestBody, &v); err == nil {

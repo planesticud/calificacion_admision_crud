@@ -1597,10 +1597,6 @@
             "description": "EstadoEntrevistaController operations for EstadoEntrevista\n"
         },
         {
-            "name": "tipo_entrevista",
-            "description": "TipoEntrevistaController operations for TipoEntrevista\n"
-        },
-        {
             "name": "criterio",
             "description": "CriterioController operations for Criterio\n"
         },
