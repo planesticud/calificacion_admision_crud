@@ -12,7 +12,8 @@ import (
 )
 
 // TipoEntrevistaController operations for TipoEntrevista
-//despues otro cafe
+// Interesante
+
 type TipoEntrevistaController struct {
 	beego.Controller
 }
