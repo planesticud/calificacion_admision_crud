@@ -1,0 +1,3 @@
+delete from evaluacion_inscripcion.requisito;
+delete from evaluacion_inscripcion.estado_entrevista;
+delete from evaluacion_inscripcion.tipo_entrevista;

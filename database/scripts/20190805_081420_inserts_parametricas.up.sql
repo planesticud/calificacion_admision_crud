@@ -1,0 +1,3 @@
+-- inserts evaluacion_inscripcion.requisito
+-- inserts evaluacion_inscripcion.estado_entrevista
+-- inserts evaluacion_inscripcion.tipo_entrevista
