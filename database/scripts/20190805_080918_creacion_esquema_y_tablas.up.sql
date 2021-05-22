@@ -214,7 +214,7 @@ COMMENT ON COLUMN evaluacion_inscripcion.requisito_programa_academico.fecha_crea
 -- ddl-end --
 COMMENT ON COLUMN evaluacion_inscripcion.requisito_programa_academico.fecha_modificacion IS 'Fecha de la última modificación del registro';
 -- ddl-end --
-COMMENT ON CONSTRAINT uq_criterio_programa_periodo ON evaluacion_inscripcion.requisito_programa_academico  IS 'Unique key que indica que un criterio solo puede aplicare una vez en un programa durante un periodo.';
+--COMMENT ON CONSTRAINT uq_criterio_programa_periodo ON evaluacion_inscripcion.requisito_programa_academico  IS 'Unique key que indica que un criterio solo puede aplicare una vez en un programa durante un periodo.';
 -- ddl-end --
 
 -- object: fk_requisito_programa_academico_requisito | type: CONSTRAINT --
